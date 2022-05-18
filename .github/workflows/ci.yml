@@ -58,7 +58,7 @@ jobs:
           haxelib --quiet install flixel-tools
           haxelib --quiet install hscript
           haxelib --quiet install newgrounds
-          haxelib --quiet git polymod https://github.com/larsiusprime/polymod.git
+          haxelib --quiet install polymod 1.4.3
           haxelib --quiet git discord_rpc https://github.com/Aidan63/linc_discord-rpc
       - name: Setup Lime
         run: haxelib --quiet run lime setup
